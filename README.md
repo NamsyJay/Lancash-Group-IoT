@@ -1,2 +1,2 @@
-# Lancash-Group-IoT
-This is a POC for Lancash Group; The Compnay is implementing IoT System to monitor devices.
+## Lancash-Group-IoT
+This Project is a POC for Lancash Group; The Company is implementing an IoT System to monitor devices in their Healthcare and Farm.
