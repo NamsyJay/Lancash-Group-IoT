@@ -7,11 +7,15 @@ Project Architecture & Components
 This IoT Project is composed of multiple layers running in AWS and enterprise systems.
 
   - Experience Layer:
-    - Mobile, PC - ``It provides user access via clients and mobile clients``.
+    - Mobile, PC - ``It provides user access via clients and mobile clients``
   - Process Layer:
-    - IoT API, Machine Gateway, Translation, IAM Permissions
+    - IoT API, Machine Gateway, Translation, IAM Permissions - ``Manages IoT API interactions, machine gateway functionality, data translation, and permission logic``
   - Data Lake:
-    - Amazon DynamoDB, AWS Data Pipeline, Kinesis Lake Formation, DataLake.
+    - Amazon DynamoDB,
+    - AWS Data Pipeline - NoSQL database for device or event storage.
+    - AWS Kinesis - Orchestration and workflow automation.
+    - AWS Lake Formation - Real-time data streaming for IoT telemetry and logs.
+    - DataLake - Aggregated repository for analysis
   - Edge:
     - IoT Greengrass, IoT Device Defender, Device Advisor, IoT Device jobs, Fleet Hub, Device Location
   - Equipment:
