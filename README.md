@@ -25,7 +25,7 @@ This Project structure allows for secure, scalable data collection from edge dev
     - (HealthCare) - Cardiac Monitoring Sensors, Blood Pressure Sensors and Remote Heart rate Monitors.
    
 ## Workflow
-  - Modems exist on clients and machines.
+  - Modems exist on clients in tags and on machines.
   - Data is captured using AWS IoT GreenGrass.
   - The Captured Data is being filtered through AWS Kinesis, flowing through AWS Data Pipeline and stored in Amazon DynamoDB.
   - Data exists on external cloud platforms like SAP Cloud.
