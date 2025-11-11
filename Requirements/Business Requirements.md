@@ -13,7 +13,7 @@ and edge devices to cloud analytics platforms, enabling real-time monitoring and
   supporting both batch and streaming analytics (AWS Lake Formation, DynamoDB, Kinesis).
   Seamless Integration with enterprise analytics and visualisation services.
 
-- EDGE PROCESSING AND RAPID RESPONSE: Critical data is processed at the edge for low-latency workflows(AWS Greengrass and low compute)
+- EDGE PROCESSING AND RAPID RESPONSE: Critical data is processed at the edge for low-latency workflows (AWS Greengrass and low compute)
   while sending aggregated data for deeper analysis.
 
 - MULTI-CLIENT USER EXPERIENCE: Clients (Mobile and Web) must access data and analytics through intuitive interfaces, supporting role-based views and device controls.
