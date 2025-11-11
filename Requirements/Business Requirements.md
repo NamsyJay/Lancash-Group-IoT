@@ -2,7 +2,7 @@ This Architecture supports data flow from field equipment
 and edge devices to cloud analytics platforms, enabling real-time monitoring and informed decision-making.
 
 ### BUSINESS REQUIREMENTS.
-### - END-TO-END CONNECTIVITY: The System must securely onboard, monitor and manage various IoT devices and equipment.
+- END-TO-END CONNECTIVITY: The System must securely onboard, monitor and manage various IoT devices and equipment.
   AWS IoT Greengrass, IoT Device Defender and other fleet management devices.
 
 - SECURE, COMPLIANT DATA PROCESSING: All data transmitted and stored must be encrypted;
