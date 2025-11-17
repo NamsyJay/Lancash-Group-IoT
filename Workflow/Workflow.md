@@ -1,4 +1,4 @@
-This follows the workflow of the Architecture.
+## This follows the workflow of the Architecture.
 
 - Experience Layer (Devices): 
   How it behaves:
@@ -19,4 +19,7 @@ This follows the workflow of the Architecture.
     - Permissions (Magenta Services):
       This handles authentication and permissons policies.
 
-  
+    1) IoT API receives the call
+    2) IoT API asks permission.
+    3) If allowed, IoT API hands off to Machine Gateway and then Translation.
+    4) Response is sent back to the Experience Layer.
