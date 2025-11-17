@@ -1,4 +1,4 @@
-CISOLNS will develop a real-time monitoring system that identifies anomalies based on machine-specific thresholds, generating actionable insights, and sends alerts to the operations teams.
+`CISOLNS` will develop a real-time monitoring system that identifies anomalies based on machine-specific thresholds, generating actionable insights, and sends alerts to the operations teams.
 The Architecture supports data flow from field equipment 
 and edge devices to cloud analytics platforms, enabling real-time monitoring and informed decision-making using AWS services.
 
