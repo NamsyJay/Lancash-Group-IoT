@@ -24,3 +24,5 @@
     2) IoT API asks permission.
     3) If allowed, IoT API hands off to Machine Gateway and then Translation.
     4) Response is sent back to the Experience Layer.
+
+
