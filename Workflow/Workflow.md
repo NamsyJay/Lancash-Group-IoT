@@ -19,6 +19,7 @@
     - Permissions (Magenta Services):
       This handles authentication and permissons policies.
 
+## WORK SKETCH
     1) IoT API receives the call
     2) IoT API asks permission.
     3) If allowed, IoT API hands off to Machine Gateway and then Translation.
