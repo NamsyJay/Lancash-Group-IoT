@@ -36,4 +36,6 @@ This Project structure allows for secure, scalable data collection from edge dev
     - Hotjar
     - CloudFlare
     - Google Analytics
-  - A Centralised CIDM (Customer Identity Management) where customer information is managed
+  - A Centralised CIDM (Customer Identity Management) where customer information is managed.
+
+SLA Agreement 
