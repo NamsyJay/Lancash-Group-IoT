@@ -71,7 +71,8 @@
   ETL/Batch Movemment
       - Move data between DynamoDB, S3, and other stores (e.g. Redshift, OpenSearch).
       - Run scheduled batch jobs: daily compaction, backfill, reprocessing when schemas change.
-  Governance & access control – Lake Formation.
+        
+Governance & access control – Lake Formation.
     - Sits over the S3 Data Lake.
     - Fine-grained permissions per role/tenant (which teams can see which patients, which hospital’s data.
     - When analytics tools query data, they respect the same privacy and tenancy rules
