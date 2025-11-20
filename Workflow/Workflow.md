@@ -25,4 +25,19 @@
     3) If allowed, IoT API hands off to Machine Gateway and then Translation.
     4) Response is sent back to the Experience Layer.
 
-
+- Edge data
+  How The Service Behaves:
+  - Devices emit telemetry & events
+  - IoT Greengrass & local edge
+    Runs on hospital gateways / on-prem servers / in ambulances.
+  - IoT Core / Gateway.
+    Greengrass or devices connect to IoT Core endpoints.
+    Rules engine routes messages:
+    - To Kinesis for real-time streams.
+    - To Lambdas (Machine Gateway/Translation) for application processing.
+    - To DynamoDB for current state / digital twin records.
+  - Defender + Advisor
+    Device Advisor: used earlier in the lifecycle to certify that
+    each device model behaves correctly  with IoT Core (good test harness).
+  - Device Defender: Monitors metrics, audits IoT policies and certs
+  - Data Lake: 
