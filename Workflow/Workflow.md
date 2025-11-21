@@ -60,23 +60,23 @@
   - Holds current and recent state, optimised for low-latency reads/writes.
     - Device shadow / digital twin (online/offline, firmware version, config, last-seen).
     - Active alarms, workflow status, etc.
-  - The Process Layer (IoT API, Machine Gateway, Translation).
+
+- The Process Layer (IoT API, Machine Gateway, Translation).
     - UI screens showing “current status”.
     - Real-time checks in business logic.
       
-  Raw & curated history – Data Lake (S3)
-  - All historical streams land here, typically in partitioned objects (by date, device, tenant, etc.).
-  - Contains:
-    - Raw payloads from devices (for forensic/debug).
-    - Normalised, translated events from the Translation Lambdas.
-    - Aggregated metrics for analytics and ML.
+    Raw & curated history – Data Lake (S3)
+    - All historical streams land here, typically in partitioned objects (by date, device, tenant, etc.).
+      - Contains:
+      - Raw payloads from devices (for forensic/debug).
+      - Normalised, translated events from the Translation Lambdas.
+      - Aggregated metrics for analytics and ML.
       
-  ETL/Batch Movemment
-  - Move data between DynamoDB, S3, and other stores (e.g. Redshift, OpenSearch).
-  - Run scheduled batch jobs: daily compaction, backfill, reprocessing when schemas change.
+    ETL/Batch Movemment
+      - Move data between DynamoDB, S3, and other stores (e.g. Redshift, OpenSearch).
+      - Run scheduled batch jobs: daily compaction, backfill, reprocessing when schemas change.
 
-  Governance & access control (Lake Formation)
-  - Sits over the S3 Data Lake.
-  - Fine-grained permissions per role/tenant (which teams can see which patients, which hospital’s data.
-  - When analytics tools query data, they respect the same privacy and tenancy rules
-    you enforce in the Process/Experience layers.
+    Governance & access control (Lake Formation)
+      - Sits over the S3 Data Lake.
+      - Fine-grained permissions per role/tenant (which teams can see which patients, which hospital’s data.
+      - When analytics tools query data, they respect the same privacy and tenancy rules you enforce in the Process/Experience layers.
