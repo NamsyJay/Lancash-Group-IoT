@@ -56,10 +56,10 @@
       - Kinesis Firehose / custom consumers dropping data into S3 (raw zone) of the Data Lake.
       - Real-time analytics / alerting components.
         
-  DynamoDB
-  - Holds current and recent state, optimised for low-latency reads/writes.
-    - Device shadow / digital twin (online/offline, firmware version, config, last-seen).
-    - Active alarms, workflow status, etc.
+    DynamoDB
+      - Holds current and recent state, optimised for low-latency reads/writes.
+      - Device shadow / digital twin (online/offline, firmware version, config, last-seen).
+      - Active alarms, workflow status, etc.
 
 - The Process Layer (IoT API, Machine Gateway, Translation).
     - UI screens showing “current status”.
