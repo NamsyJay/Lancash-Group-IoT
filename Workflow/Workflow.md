@@ -75,6 +75,8 @@
     - ETL/Batch Movemment
       - Move data between DynamoDB, S3, and other stores (e.g. Redshift, OpenSearch).
       - Run scheduled batch jobs, daily compaction, backfill, reprocessing when schemas change.
+     
+    Integrate with CloudFlare & SAP
 
     - Governance & access control (Lake Formation)
       - Sits over the S3 Data Lake.
