@@ -10,5 +10,25 @@ Develop a web application that provides real-time insights into the performance 
 - Secure Access: ensures that data is appropriately retrieved across AWS services.
 
 ## Instructions:
-### 1) SetUp The React App
-### 2) 
+- SetUp The React App.
+  Initialise The Project
+  Project Structure
+  Create API Service
+
+- Develop The Dashboard Components.
+  Create Device List Component
+  Device Interfaces
+
+- Setup the AWS Backend.
+  Create API Gateway Endpoint
+  Create a Lambda Function
+  Connect API Gateway to Lambda
+
+- Testing The Dashboard.
+  `npm start`
+  Open the browser and verify
+  The chart shows accurate event counts
+
+- Deployment To The Cloud.
+  Deploy the React App using AWS Amplify
+  Create an S3 Bucket and enable static hosting
