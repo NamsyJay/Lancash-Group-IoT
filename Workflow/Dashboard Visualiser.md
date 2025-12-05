@@ -9,6 +9,6 @@ Develop a web application that provides real-time insights into the performance 
 - Scalable Architecture: Utilise AWS services like Lambda, API Gateway and DynamoDB for backend support.
 - Secure Access: ensures that data is appropriately retrieved across AWS services.
 
-Instructions:
+## Instructions:
 ### 1) SetUp The React App
 ### 2) 
