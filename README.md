@@ -35,9 +35,9 @@ This Project structure allows for secure, scalable data collection from edge dev
   - This flow is built using a CI/CD Pipeline.
     - In addition to the pipeline, there are several tools in the workflow.
     - Datadog
-    - Hotjar
-    - CloudFlare
-    - Google Analytics
+    - Hotjar (Behavioural Analytics for user behaviour)
+    - CloudFlare (CDN Hosting)
+    - Google Analytics (Visuals)
   - A Centralised CIDM (Customer Identity Management) where customer information is managed.
 
-SLA Agreement 
+ 
