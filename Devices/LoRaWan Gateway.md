@@ -18,9 +18,9 @@
 
 If you see non-zero values, Modbus is functioning.
 
-**Troubleshooting**
-3) Common IoT Gateway challenges:
-Symptom           Cause                        Fix
+### Troubleshooting
+### 3) Common IoT Gateway challenges:
+### Symptom           Cause                        Fix
 Always 0 ->   Wrong Register Block ->     Try Input Registers
 Wierd Big Numbers -> Float stored as int -> Change Display
 Values Swapped   ->   Endianness    ->     Swap Word Order(adjusting order from one device to another)
