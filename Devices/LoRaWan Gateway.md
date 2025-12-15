@@ -26,5 +26,6 @@ If you see non-zero values, Modbus is functioning.
 - Values Swapped   ->   Endianness    ->     Swap Word Order(adjusting order from one device to another)
 - Nothing Reads    -> Wrong Start Address    ->  Try 000 instead of 0001
 
+
 - Scaling Issues: Gateways may store `25.6C` as `256`; So check the scaling factor in the gateway docs.
 - Multi-sensor mapping: `sensor 1 Temp -> 40001`, `sensor 2 Temp -> 40101`; ensure the reading has the correct register block.
