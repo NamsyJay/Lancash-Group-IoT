@@ -1,3 +1,5 @@
+<img width="1100" height="671" alt="Lancash_Architecture" src="https://github.com/user-attachments/assets/18d9a7f5-12ab-44e5-98aa-0852bfbb13ae" />
+
 ## Lancash-Group-IoT
 This Project is a POC for Lancash Group; The Company is implementing an IoT System to monitor devices in their Healthcare and Farm.
 
