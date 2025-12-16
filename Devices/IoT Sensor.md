@@ -6,7 +6,7 @@
     Raw payload: 0A 01 00 FA
     Decoded:
     Temperature = 25.0°C
-  ```
+  ````
 - Confirm Modbus Mapping
   ```
   Sensor sends 25.0°C
