@@ -30,4 +30,11 @@ If you see non-zero values, Modbus is functioning.
 - Scaling Issues: Gateways may store `25.6°C` as `256`; So check the scaling factor in the gateway docs.
 - Multi-sensor mapping: `sensor 1 Temp -> 40001`, `sensor 2 Temp -> 40101`; ensure the reading has the correct register block.
 
-  The End-To-End Application
+
+### The End-To-End Application
+- Gateways
+  Create and fill in the credentials.
+  Frequency plan:- Europe 863-870 MHz
+  Duty Cycle (Listen before Talk Optional) 
+- 
+  
