@@ -33,8 +33,14 @@ If you see non-zero values, Modbus is functioning.
 
 ### The End-To-End Application
 - Gateways
-  Create and fill in the credentials.
-  Frequency plan:- Europe 863-870 MHz
-  Duty Cycle (Listen before Talk Optional) 
-- 
-  
+  - Create and fill in the credentials.
+  - Frequency plan:- Europe 863-870 MHz
+  - Duty Cycle (Listen before Talk Optional) 
+- Onboard by creating an application
+  - Fill in the credentials
+  - Click the button on the node to reset and show the uplink data message.
+  - Fill in payload formatter (JavaScript Formatter)
+- Integration depends on Application (MTTQ, Webhooks, AWS IoT)  
+- Start the Node.js application in the terminal.
+- View in the browser.
+  - Press the button on the device to refresh data.
