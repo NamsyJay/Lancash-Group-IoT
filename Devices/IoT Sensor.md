@@ -17,3 +17,12 @@
   ```
   
   Modbus is validating - Gateway Logic, Sensor Data arrival.
+
+Sensors 
+- SX1276
+
+ABP vs OTAA Activation.
+OTAA - Over The Air Approach.
+- The device will join over the air "JoinRequest/JoinAccept".
+- The network generates session keys each time; this is a secure and standard practice.
+- In TTN, you configure the DevEUI, JoinEUI/AppEUI, AppKey.
