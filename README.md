@@ -40,4 +40,6 @@ This Project structure allows for secure, scalable data collection from edge dev
     - Google Analytics (Visuals)
   - A Centralised CIDM (Customer Identity Management) where customer information is managed.
 
+## The Essentials needed to be built 
+
  
